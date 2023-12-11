@@ -1,0 +1,106 @@
+.mt-1 {
+  background-color: #f5f5f5; /* Color similar al de Google */
+  font-family: 'Times New Roman', serif; /* Cambiado a Times New Roman */
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5; /* Añadido borde de 25px */
+  box-shadow: rgba(110, 110, 110, 0.14) 0px 2px 4px;
+  
+}
+
+body.general {
+  font-family: 'Times New Roman', serif; /* Cambiado a Times New Roman */
+  background-color: #f5f5f5; /* Color de fondo similar al de Google */
+  margin: 0;
+  padding: 0;
+  max-width: 400px; /* Agregado máximo ancho */
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Establece el alto al 100% de la ventana */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #ffffff; /* Color de fondo blanco */
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
+}
+
+.navbar {
+  background-color: #325878; /* Color similar al de Google */
+  color: #ffffff; /* Color de texto blanco para mejor contraste */
+  padding: 8px 16px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  color: #ffffff; /* Color de texto blanco para mejor contraste */
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.nav-item {
+  margin-right: 16px;
+}
+
+.dropdown-menu {
+  background-color: #ffffff; /* Fondo blanco para el menú desplegable */
+  color: #757575;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
+}
+
+.dropdown-item {
+  color: #000000; /* Texto negro para mejor contraste */
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #2196f3; /* Color similar al de Google */
+  border-color: #1e88e5;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
+}
+
+.btn-primary:hover {
+  background-color: #1967d2; /* Tono más oscuro al hacer hover para resaltar */
+  border-color: #1967d2;
+}
+
+.mt-4 {
+  background-color: #f8f9fa; /* Color similar al de Google */
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.submit-btn {
+  background-color: #314657; /* Color similar al de Google */
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 4px;
+  display: block;
+  margin: 0 auto; /* Centrar el botón */
+}
